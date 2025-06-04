@@ -23,6 +23,12 @@ export default function Home() {
           >
             Go to Page2
           </Link>
+          <Link
+            href="/stream"
+            className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl font-semibold transition shadow-lg text-center"
+          >
+            Go to stream page
+          </Link>
         </div>
       </div>
 
