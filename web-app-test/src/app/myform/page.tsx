@@ -20,7 +20,7 @@ export default function MyFormPage() {
           <form onSubmit={handleSubmit} className="flex flex-col gap-4">
             <input
               type="text"
-              placeholder="Enter your name"
+              placeholder="Enter A String"
               className="border-2 border-indigo-200 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               value={name}
               onChange={(e) => setName(e.target.value)}
@@ -40,10 +40,11 @@ export default function MyFormPage() {
               onClick={() => {
                 setSubmitted(false);
                 setName('');
+                setHeading("✨ Enter Another String! ✨")
               }}
               className="text-indigo-600 underline hover:text-indigo-800"
             >
-              Submit another name
+              Submit another string
             </button>
           </div>
         )}
