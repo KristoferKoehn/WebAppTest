@@ -18,10 +18,10 @@ export default function Home() {
             Go to MyForm
           </Link>
           <Link
-            href="/page2"
+            href="/shader"
             className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl font-semibold transition shadow-lg text-center"
           >
-            Go to Page2
+            Go to Shader
           </Link>
           <Link
             href="/stream"
